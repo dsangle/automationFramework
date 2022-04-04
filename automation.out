@@ -1,0 +1,17 @@
+2022-03-09 20:21:00 INFO  TestBase:71 - loading config.properties.
+2022-03-09 20:21:03 INFO  GenericHelper:124 - 20
+2022-03-09 20:21:03 INFO  GenericHelper:134 - 240
+2022-03-09 20:21:03 INFO  VerifyProductCounts:30 - com.automationFramework.uiTests.VerifyProductCounts started
+2022-03-09 20:21:15 INFO  GenericHelper:163 - element found...WOMEN
+2022-03-09 20:21:15 INFO  GenericHelper:163 - element found...Sign in
+2022-03-09 20:21:15 INFO  VerifyProductCounts:38 - Navigate to follow on facebook iframe
+2022-03-09 20:21:15 INFO  HomePage:71 - navigating to facebook iframe 
+2022-03-09 20:21:15 INFO  GenericHelper:185 - window.scrollTo(0, document.body.scrollHeight)
+2022-03-09 20:21:36 INFO  GenericHelper:208 - switched to :Proxy element for: DefaultElementLocator 'By.xpath: //iframe[contains(@src,'facebook')]' frame
+2022-03-09 20:21:36 INFO  VerifyProductCounts:44 - Navigate to product category page 
+2022-03-09 20:21:36 INFO  HomePage:65 - clickin on : WOMEN
+2022-03-09 20:21:51 INFO  GenericHelper:163 - element found...CATALOG
+2022-03-09 20:21:51 INFO  VerifyProductCounts:47 - select color as : Orange
+2022-03-09 20:21:51 INFO  GenericHelper:185 - arguments[0].scrollIntoView()
+2022-03-09 20:21:51 INFO  GenericHelper:191 - [[ChromeDriver: chrome on WINDOWS (8b191bd6c060b21cfc43cc9910507527)] -> xpath: //a[contains(text(),'Orange')]/parent::*/preceding-sibling::input[1]]
+2022-03-09 20:21:59 INFO  VerifyProductCounts:51 - Validate that count of oracle products is 3
