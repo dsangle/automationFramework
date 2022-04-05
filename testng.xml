@@ -16,7 +16,10 @@
 			<class
 				name="com.automationFramework.apiTests.GetUserDetailsTest">
 				<methods>
-					<include name="getUserDetailsTest" />
+					<include name="LoginTest" />
+					<include name="Registration" />
+					<include name="VerifyProductCounts" />
+					
 				</methods>
 			</class>
 		</classes>
