@@ -14,12 +14,9 @@
 	<test thread-count="5" name="Test1">
 		<classes>
 			<class
-				name="com.automationFramework.apiTests.GetUserDetailsTest">
+				name="com.automationFramework.uiTests.LoginTest">
 				<methods>
-					<include name="LoginTest" />
-					<include name="Registration" />
-					<include name="VerifyProductCounts" />
-					
+					<include name="testLoginToApplication" />		
 				</methods>
 			</class>
 		</classes>
